@@ -1,0 +1,1 @@
+<button bind:tap="getUserMes" type="primary" plain open-type="getUserInfo" bind:getuserinfo="getUserInfo">获取授权</button>

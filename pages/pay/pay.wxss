@@ -1,0 +1,121 @@
+/* pages/cart/cart.wxss */
+page {
+  padding-bottom: 90rpx;
+}
+
+/*收货地址信息*/
+.user_info_row {
+  display: flex;
+  padding: 20rpx;
+}
+
+.user_info {
+  flex: 5;
+}
+
+.user_phone {
+  flex: 3;
+  text-align: right;
+}
+
+/*购物车内容*/
+.cart_content .cart_title {
+  font-size: 36rpx;
+  padding: 20rpx;
+  border-top: 1rpx solid currentColor;
+  border-bottom: 1rpx solid currentColor;
+}
+
+.cart_main .cart_item {
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+/*购物车：商品图片*/
+.cart_item .cart_img_wrap {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_img_wrap image {
+  width: 80%;
+}
+
+/*购物车：商品信息*/
+.cart_info_wrap {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart_info_wrap .goods_name {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #666;
+}
+
+.cart_info_wrap .goods_price_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods_price_wrap .goods_price {
+  color: var(--themeColor);
+  font-size: 34rpx;
+}
+
+.goods_price_wrap .cart_num_tool {
+  display: flex;
+}
+
+.cart_num_tool .goods_num {
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  font-size: 33rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+/*底部工具栏*/
+.footer_tool {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  border-top: 1rpx solid #ccc;
+}
+
+/*合计*/
+.footer_tool .total_price_wrap {
+  flex: 5;
+  text-align: right;
+  padding: 5rpx 15rpx;
+}
+
+.total_price_wrap .title_price {
+  font-size: 32rpx;
+}
+
+.total_price_wrap .total_price_text {
+  color: var(--themeColor);
+}
+
+/*结算*/
+.footer_tool .order_pay_wrap {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  color: #fff;
+  background-color: var(--themeColor);
+}

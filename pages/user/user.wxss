@@ -1,0 +1,139 @@
+page {
+  background-color: #f2f5f8;
+}
+
+/*顶部用户头像等*/
+.user_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--themeColor);
+}
+
+/*登录按钮*/
+.user_info_wrap .user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  color: greenyellow;
+  border: 1rpx solid greenyellow;
+  padding: 20rpx 40rpx;
+  border-radius: 10rpx;
+}
+
+/*登录后信息*/
+.user_info_wrap .user_img_wrap {
+  position: relative;
+}
+
+.user_img_wrap .user_bg {
+  /*高斯模糊*/
+  filter: blur(10rpx);
+}
+
+.user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+}
+
+.user_info .user_icon {
+  width: 150rpx;
+  border-radius: 50%;
+}
+
+.user_info .user_name {
+  margin-top: 40rpx;
+  font-size: 40rpx;
+  color: #fff;
+  text-align: center;
+}
+
+/*下方容器*/
+.user_content {
+  position: relative;
+}
+
+.user_content .user_main {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+  padding-bottom: 30rpx;
+}
+
+/*历史足迹*/
+.user_main .history_wrap {
+  display: flex;
+  background-color: white;
+  padding: 10rpx 0;
+}
+
+.history_wrap navigator {
+  flex: 1;
+  text-align: center;
+}
+
+.history_wrap .his_num {
+  color: var(--themeColor);
+}
+
+/*我的订单*/
+.orders_wrap {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+
+.orders_wrap .orders_title {
+  padding: 25rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.orders_wrap .orders_content {
+  display: flex;
+}
+
+.orders_content navigator {
+  flex: 1;
+  text-align: center;
+  padding: 15rpx 0;
+}
+
+.orders_content .iconfont {
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+
+/*收货地址管理*/
+.address_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+
+/*应用信息相关*/
+.app_info_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+
+.app_info_wrap .app_info_item {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.app_info_wrap .app_info_contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*推荐*/
+.recommend_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+
